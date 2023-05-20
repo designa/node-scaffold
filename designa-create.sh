@@ -34,10 +34,10 @@ echo '{
 }' > tsconfig.json
 
 # Baixa o Dockerfile
-curl -sS <URL_DO_GIST_DOCKERFILE> -o Dockerfile
+curl -sS https://raw.githubusercontent.com/designa/node-scaffold/main/Dockerfile -o Dockerfile
 
 # Baixa o arquivo docker-compose.yaml
-curl -sS <URL_DO_GIST_DOCKER_COMPOSE> -o docker-compose.yaml
+curl -sS https://raw.githubusercontent.com/designa/node-scaffold/main/docker-compose.yml -o docker-compose.yaml
 
 # Instala as dependências necessárias
 yarn add express prisma fastify ts-node-dev typescript
