@@ -23,27 +23,32 @@ git clone https://github.com/designa/node-scaffold.git
 cd node-scaffold
 ```
 
-3. Run the `designa-create.sh` script to initialize your new project:
+3. Run the install.sh script to install the designa-create command:
 
 ```bash
-./designa-create.sh
+./install.sh
 ```
 
-This script will prompt you to enter the name of your project and create the necessary directory structure, initialize the project with TypeScript, and download the Docker-related files.
+This script will move the designa-create.sh script to /usr/local/bin, set the execution permissions, and install it as the designa-create command.
 
-4. Install project dependencies:
+4. Create a new project:
 
 ```bash
+designa-create <nome_do_projeto>
+```
+
+5. Install project dependencies:
+
+```bash
+cd <nome_do_projeto>
 yarn install
 ```
 
-5. Start the development server:
+6. Start the development server:
 
 ```bash
 yarn dev
 ```
-
-6. Access the application in your browser at `http://localhost:3000`.
 
 ### Docker
 
