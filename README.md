@@ -10,6 +10,7 @@ To use this scaffold, follow the steps below:
 
 - Node.js (https://nodejs.org)
 - Yarn package manager (https://yarnpkg.com)
+- JQ (https://stedolan.github.io/jq/)
 
 ### Installation
 
